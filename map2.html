@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>US 2020 COVID Cases by County</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.8.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style2.css" />
+    <script src="js/script2.js" async></script>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="map-overlay" id="features">
+      <h2>US 2020 COVID Case Count</h2>
+      <h4>Total cases per county in 2020</h4>
+      <div id="pd"><p><b>Click on a county (dot) to explore!</b></p></div>
+      <p>
+        COVID case data -
+        <a
+          href="https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv"
+          >NYT Github</a
+        >
+      </p>
+      <p>
+        County data -
+        <a
+          href="https://www.census.gov/geographies/mapping-files/time-series/geo/carto-boundary-file.html>"
+        >
+          US Census Bureau</a
+        >
+      </p>
+    </div>
+    <div class="map-overlay" id="legend">
+      <h3>Case Counts</h3>
+    </div>
+  </body>
+</html>
