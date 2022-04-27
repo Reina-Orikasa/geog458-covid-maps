@@ -4,14 +4,30 @@ mapboxgl.accessToken =
 
 const map = new mapboxgl.Map({
   container: "map", // container id
-  style: "mapbox://styles/reina-orikasa/cl2gpq4w9001014l27jwoizbz",
+  style: "mapbox://styles/reina-orikasa/cl2i5os3a001014msbnw9g59e",
 });
 
 map.on("load", () => {
   map.getCanvas().style.cursor = "default";
-  const layers = ["0-56", "57-108", "109-160", "161-213", "214-290"];
+  const layers = [
+    "0 - 4.492",
+    "4.493 - 40.3",
+    "40.3 - 76.2",
+    "76.3 - 112.1",
+    "112.2 - 147.9",
+    "148 - 219.6",
+    "219.7 - 291.297",
+  ];
 
-  const colors = ["#ffffb2", "#feda76", "#feb24d", "#fd8b3a", "#ef3b1f"];
+  const colors = [
+    "#ffffd4",
+    "#fee391",
+    "#fec44f",
+    "#fe9929",
+    "#ec7014",
+    "#cc4c02",
+    "#8c2d04",
+  ];
 
   // create legend
   const legend = document.getElementById("legend");
@@ -33,7 +49,7 @@ map.on("load", () => {
 
 map.on("mousemove", (event) => {
   const states = map.queryRenderedFeatures(event.point, {
-    layers: ["us-covid-2020-rates"],
+    layers: ["us-covid-2020-rates-v2"],
   });
 
   document.getElementById("pd").innerHTML = states.length

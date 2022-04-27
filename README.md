@@ -4,10 +4,13 @@ This repo is used to host two maps created using Mapbox Studio visualizing COVID
 
 Functions- to visualize where COVID rates and cases were the highest in 2020 and patterns. Hover over a county to see name, case rate, cases, and populaton in 2018 for the choropleth map. County color increases in intensity with case rate. Click on dots to show case count for a county in proportional symbols map. Dot size increases with case count. 
 
-# Links
+# Links and Screenshots
 [Map 1 - Choropleth Map](https://reina-orikasa.github.io/geog458-covid-maps/map1.html)
 
 [Map 2 - Proportional Symbols Map](https://reina-orikasa.github.io/geog458-covid-maps/map2.html)
+
+![map1](img/map1.png) Map 1
+![map2](img/map2.png) Map 2
 
 
 # Data Sources
