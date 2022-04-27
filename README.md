@@ -9,9 +9,12 @@ Functions- to visualize where COVID rates and cases were the highest in 2020 and
 
 [Map 2 - Proportional Symbols Map](https://reina-orikasa.github.io/geog458-covid-maps/map2.html)
 
----
 
-## Data Sources
+# Data Sources
 COVID Numbers from the [New York Times](https://github.com/nytimes/covid-19-data/blob/43d32dde2f87bd4dafbb7d23f5d9e878124018b8/live/us-counties.csv).
 
 US County Data from the [US Census Bureau](https://data.census.gov/cedsci/table?q=county%20population%202018%20acs&tid=ACSDT1Y2018.B01003).
+
+# Acknowledgment / Credit
+See: https://github.com/jakobzhao/geog458/tree/master/labs/lab03 for assignment details.  
+Maps created in [Mapbox Studio](https://studio.mapbox.com/)
